@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+body, html, header, nav, div, main, section {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.logotype {
+    height: 100px;
+}
+
+ul img{
+    margin-right: 1100px;
+}
+
+
+
+
+.main-banner {
+    opacity: 0.8;
+}
+
+.page-header {
+    background: rgb(114,36,177);
+background: radial-gradient(circle, rgba(114,36,177,1) 23%, rgba(128,0,255,1) 100%);
+    max-width: 100%;
+}
+
+.nav-links {
+    margin: auto auto auto 20px;
+    text-align: center;
+}
+
+.nav-links a {
+   padding: 20px;
+   text-decoration: none;
+   color: white;
+   font-family: 'Open Sans';
+   font-weight: 500;
+   font-size: 14px;
+}
+
