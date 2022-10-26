@@ -17,11 +17,11 @@
         <nav>
             <ul class="nav-links">
                 <img src="../Logo_-_Isabelle_-removebg-preview.png" alt="Isabelle Baritot Logotype" class="logotype">
-                <a href="#">Sobre mim</a>
-                <a href="#">Trabalhos</a>
-                <a href="#">Fotos</a>
-                <a href="#">Dicas & Cases</a>
-                <a href="#">Fale comigo</a>
+                <a href="#" onmouseenter="hover()" onmouseleave="onleave()">Sobre mim</a>
+                <a href="#" onmouseenter="hover()" onmouseleave="onleave()">Trabalhos</a>
+                <a href="#" onmouseenter="hover()" onmouseleave="onleave()">Instagram</a>
+                <a href="#" onmouseenter="hover()" onmouseleave="onleave()">Dicas & Cases</a>
+                <a href="#" onmouseenter="hover()" onmouseleave="onleave()">Fale comigo</a>
             </ul>
         </nav>
     </header>
@@ -151,6 +151,7 @@
         <div class="home-footer">
             <hr class="separator">
             <h1>Contate-me!</h1>
+            <form action="">
             <div class="form-floating mb-3 forms">
                 <label for="floatingInput"></label>
                 <input type="email" class="form-control" id="floatingInput" placeholder="Insira seu email">
@@ -158,17 +159,20 @@
             </div>
             <div class="form-floating forms">
                 <label for="floatingPassword"></label>
-                <input type="password" class="form-control" id="floatingPassword" placeholder="Assunto">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Assunto">
             </div>
             <div class="form-floating">
                 <label for="floatingTextarea2"></label>
                 <textarea class="form-control forms" placeholder="Insira sua mensagem :)" id="floatingTextarea2"
                     style="height: 130px;width:490px;resize: none;"></textarea>
             </div>
+            <button class="btn btn-primary" type="submit">Enviar!</button>
+            <button class="btn btn-warning" type="reset">Limpar</button>
             <div class="copyright">
                 <h5>Powered by @dudupuci</h5>
             </div>
         </div>
+    </form>
     </footer>
 
 </body>
